@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    margin: 0;
+    padding: 0;
+    font-size:15px;
+    color: #9B9B9B;
+    font-family: 'Open Sans', '微軟正黑體', sans-serif;
+    background: #F2F2F2;
+}
+.container{
+    max-width: 1200px;
+}
+.greenTxt{
+    color: #7ED321;
+}
+.redTxt{
+    color: #D0021B;
+}
+.blueTxt{
+    color: #4A90E2;
+}
+.blackTxt{
+    color:#000;
+}
+.grayTxt{
+    color: #9B9B9B;
+}
+.mTitle{
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.dropdownBox button{
+    border:0;
+    background: transparent;
+}
+.dropdownBox .dropdown-menu > li > a:hover, 
+.dropdownBox .dropdown-menu > li > a:focus{
+    background: #000;
+    color: #fff;
+}
+.pageBox{
+    text-align: center;
+}
+.pageBox .pagination > .active > a, 
+.pageBox .pagination > .active > span, 
+.pageBox .pagination > .active > a:hover, 
+.pageBox .pagination > .active > span:hover, 
+.pageBox .pagination > .active > a:focus, 
+.pageBox .pagination > .active > span:focus{
+    background: #000;
+    color:#fff;
+    border-color:#000;
+}
+.pageBox .pagination > li > a, 
+.pageBox .pagination > li > span{
+    color: #000;
+}
+.header{
+    background: #000;
+    height: 53px;
+    line-height: 50px;
+}
+.header a{
+    color:#fff;
+}
+.logo{
+    font-size: 24px;
+}
+.tabBox .nav-tabs{
+    border-bottom:0;
+}
+.tabBox .nav-tabs > li > a{
+    height:53px;
+    line-height: 30px;
+    box-sizing: border-box;
+    border:0;
+    border-bottom: 3px solid #000;
+    padding: 10px 25px;
+} 
+.tabBox .nav-tabs > li.active > a, 
+.tabBox .nav-tabs > li.active > a:hover, 
+.tabBox .nav-tabs > li.active > a:focus,
+.tabBox .nav > li > a:hover, 
+.tabBox .nav > li > a:focus{
+    background: transparent;
+    border:0;
+    border-bottom: 3px solid #fff;
+    color:#fff;
+}
+.cHeader{
+    padding: 15px 0 0;
+}
+.cHeader .selectDate span, 
+.cHeader .selectDate i,
+.cHeader .selectDate > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cHeader .selectDate i{
+    color: #000;
+    margin: 0 5px;
+}
+.cTotal, .chartBox{
+    margin-bottom: 20px;
+}
+.totalBox > div{
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 5px #EBEBEB;
+    border-radius: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.totalBox .totalHeader{
+    font-size: 18px;
+}
+.totalBox .totalHeader i{
+    margin-right: 5px;
+}
+.totalBox .totalPrice{
+    font-size: 30px;
+    font-weight: bold;
+}
+.chartBox{
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 5px #EBEBEB;
+    border-radius: 3px;
+    padding: 20px;
+}
+.website > div, .orderLast > div{
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 5px #EBEBEB;
+    border-radius: 3px;
+    padding: 20px;
+}
+.website .websiteUnit{
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.website .websiteUnit > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.website .websiteIcon{
+    color: #000;
+    font-size: 45px;
+    width: 50px;
+}
+.website .websiteUrl{
+    width: calc(100% - 235px);
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.website .websitePrice{
+    width: 120px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.website .websitePercent{
+    width: 50px;
+}
+.orderLastUnit{
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    color:#000;
+}
+.orderLastUnit > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.orderLastImg{
+    width: 100px;
+}
+.orderLastInfo{
+    width:calc(100% - 170px);
+    box-sizing: border-box;
+    padding:0 15px;
+}
+.orderLastInfo .orderLastTitle{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+.orderLastInfo .orderLastDate, 
+.orderLastInfo .orderLastUser{
+    color: #9B9B9B;
+}
+.orderLastInfo .orderLastDate i, 
+.orderLastInfo .orderLastUser i{
+    width:15px;
+    text-align: center;
+}
+.orderLastTotal{
+    width:60px;
+    text-align: right;
+    margin-top: 20px;
+}
+.orderLastTotal b{
+    font-size:20px;
+    font-weight: bold;
+}
+.orderHeader{
+    padding: 10px 0;
+}
+.addBtn{
+    background: #000;
+    color:#fff;
+}
+.addBtn:hover, 
+.addBtn:focus, 
+.addBtn.focus{
+    color: #fff;
+}
+.addModal .form{
+    color:#000;
+}
+.addModal .uploadBox{
+    padding: 30px;
+    background: #EBEBEB;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.addModal .uploadBox i{
+    font-size: 25px;
+}
+.modalAddImg img{
+    width:32.5%;
+    margin-bottom: 5px;
+}
+.addModal .form .price > div.input-group{
+    display: inline-block;
+    width:49%;
+}
+.addModal .form .price label{
+    display: block;
+}
+.addModal .form .price .input-group-addon:first-child{
+    width: 80px;
+    display: inline-block;
+    float: left;
+    height: 34px;
+    line-height: 22px;
+}
+.addModal .form .price .input-group .form-control:last-child, 
+.addModal .form .price .input-group-addon:last-child, 
+.addModal .form .price .input-group-btn:last-child > .btn, 
+.addModal .form .price .input-group-btn:last-child > .btn-group > .btn, 
+.addModal .form .price .input-group-btn:last-child > .dropdown-toggle, 
+.addModal .form .price .input-group-btn:first-child > .btn:not(:first-child), 
+.addModal .form .price .input-group-btn:first-child > .btn-group:not(:first-child) > .btn{
+    width: calc(100% - 80px);
+    display: inline-block;
+    height: 34px;
+}
+.addModal .form .specification > div.input-group{
+    display: inline-block;
+    width:25%;
+}
+.addModal .form .specification > div.input-group:last-child{
+    width:48%;
+}
+.addModal .form .specification label{
+    display: block;
+}
+.addModal .form .specification .input-group-addon:first-child{
+    width: 55px;
+    display: inline-block;
+    float: left;
+    height: 34px;
+    line-height: 22px;
+}
+.addModal .form .specification .input-group:last-child .input-group-addon:first-child{
+    width:80px;
+}
+.addModal .form .specification .input-group .form-control:last-child, 
+.addModal .form .specification .input-group-addon:last-child, 
+.addModal .form .specification .input-group-btn:last-child > .btn, 
+.addModal .form .specification .input-group-btn:last-child > .btn-group > .btn, 
+.addModal .form .specification .input-group-btn:last-child > .dropdown-toggle, 
+.addModal .form .specification .input-group-btn:first-child > .btn:not(:first-child), 
+.addModal .form .specification .input-group-btn:first-child > .btn-group:not(:first-child) > .btn{
+    width: calc(100% - 55px);
+    display: inline-block;
+    height: 34px; 
+}
+.addModal .form .specification .input-group:last-child .form-control:last-child{
+    width: calc(100% - 80px);
+}
+.ordersList{
+    color: #000;
+}
+.ordersList > div{
+    min-height: 400px;
+}
+.ordersInfo > div{
+    display: inline-block;
+}
+.ordersName{
+    width:130px;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    white-space : nowrap;
+}
+.ordersDateTime{
+    width:100px;
+}
+.productList{
+    color: #000;
+}
+.productList > div{
+    min-height: 400px;
+}
+.productList .productRWD td{
+    vertical-align: middle;
+}
+.productList .productInfo > div{
+    display: inline-block;
+}
+.productList .productName{
+    margin-left: 5px;
+}
